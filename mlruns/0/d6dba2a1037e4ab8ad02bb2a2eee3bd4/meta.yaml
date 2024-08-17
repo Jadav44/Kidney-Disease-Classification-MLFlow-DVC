@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Storage/DS/Projects/Kidney/Kidney-Disease-Classification-MLFlow-DVC/mlruns/0/d6dba2a1037e4ab8ad02bb2a2eee3bd4/artifacts
+end_time: 1723937883352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6dba2a1037e4ab8ad02bb2a2eee3bd4
+run_name: fun-donkey-831
+run_uuid: d6dba2a1037e4ab8ad02bb2a2eee3bd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723937875746
+status: 3
+tags: []
+user_id: tikri

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Storage/DS/Projects/Kidney/Kidney-Disease-Classification-MLFlow-DVC/mlruns/0/92410870e9bc4982ad28a44776ae514b/artifacts
+end_time: 1723938252240
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92410870e9bc4982ad28a44776ae514b
+run_name: salty-whale-165
+run_uuid: 92410870e9bc4982ad28a44776ae514b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723938244561
+status: 3
+tags: []
+user_id: tikri
