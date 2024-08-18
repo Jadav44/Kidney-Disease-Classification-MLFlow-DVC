@@ -51,10 +51,10 @@ except Exception as e:
 STAGE_NAME = "Evaluation stage"
 try:
    logger.info(f"*******************")
-   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<</n/n")
    model_evalution = EvaluationPipeline()
    model_evalution.main()
-   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<</n/n")
 
 except Exception as e:
         logger.exception(e)

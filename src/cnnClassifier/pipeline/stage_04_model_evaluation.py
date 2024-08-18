@@ -17,6 +17,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
+        logger.info(f"/n/n===================>>>>>> login into MlFlow Started <<<<<<===================/n/n")
         evaluation.log_into_mlflow()
 
 
@@ -25,10 +26,10 @@ class EvaluationPipeline:
 if __name__ == '__main__':
     try:
         logger.info(f"*******************")
-        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<\n\nFrom Pipeline/n/n")
         obj = EvaluationPipeline()
         obj.main()
-        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nFrom Pipeline/n/n")
     except Exception as e:
         logger.exception(e)
         raise e

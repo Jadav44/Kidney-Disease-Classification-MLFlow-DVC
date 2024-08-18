@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Storage/DS/Projects/Kidney/Kidney-Disease-Classification-MLFlow-DVC/mlruns/0/1d2e16ee0af4456eb56f452236fb5427/artifacts
+end_time: 1724012659587
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d2e16ee0af4456eb56f452236fb5427
+run_name: smiling-rook-534
+run_uuid: 1d2e16ee0af4456eb56f452236fb5427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724012649062
+status: 3
+tags: []
+user_id: tikri

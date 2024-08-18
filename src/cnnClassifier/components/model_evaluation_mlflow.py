@@ -5,6 +5,7 @@ import mlflow.keras
 from urllib.parse import urlparse
 from src.cnnClassifier.entity.config_entity import EvaluationConfig
 from src.cnnClassifier.utils.common import read_yaml, create_directories,save_json
+from src.cnnClassifier import logger
 
 
 class Evaluation:
@@ -64,6 +65,7 @@ class Evaluation:
             )
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
+                logger.info(f"/n/n===================>>>>>>Tracking Url Type is file<<<<<<===================/n/n")
 
                 # Register the model
                 # There are other ways to use the Model Registry, which depends on the use case,
@@ -71,7 +73,11 @@ class Evaluation:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
+                logger.info(f"/n/n===================>>>>>>Tracking Url Type is not a file so saved to local<<<<<<===================/n/n")
                 mlflow.keras.log_model(self.model, "model")
+
+
+
 
 
 
